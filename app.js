@@ -67,7 +67,7 @@ Please type this code below
 for a refresher, strings are for storing text and are typically
 written with text, like so */
 
-let text = "I Play Pokemon Go EVERYDAYYYY";
+let text = "IPlayPokemonGoEVERYDAYYYY";
 
 /*But now since we finished the course, it is time to dive deeper into
 strings, and some of the cool methods you can use with strings. The
@@ -99,4 +99,36 @@ console.log(text.charAt(0));
 /*It would essentially would retrieve the I index of the
 string /*
 
+*/
 
+/*You can also get the last character in a string by going like this 
+*/
+
+console.log(text.charAt(text.length - 1));
+
+//This is essentially a cooler and more versitle way of getting the last
+//index of a string
+
+
+//.SLICE();
+
+/* Slice is another method that we can use to manipulate strings 
+The defintion of slice is that it extracts a part of a string and returns
+the extracted part in a new string
+An important thing to note is that the end position is not included.
+So for example, looking at the text variable, if we went
+*/
+
+let part = text.slice(0,4);
+console.log(part);
+
+//What parts do you think would be extracted? //
+
+/*Essentially, it would be the first 3 indexs of the string, so it would just be
+IPlay */
+
+/*Practice 
+Below, i want you to create a variable with the data type string.
+Then, i want you to create another variable named part2, and i want you
+to slice the newly selected text from index 0 to 4.
+*/
